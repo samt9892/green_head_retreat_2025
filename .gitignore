@@ -47,3 +47,10 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+#DS store
+.DS_Store
+
+#original NBDL files
+NBDL-e3fb54acd25d6a7f/
+
