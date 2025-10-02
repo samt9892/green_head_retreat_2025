@@ -23,3 +23,5 @@ format_metadata <- metadata %>%
   )) %>%
   relocate(domain, .before = kingdom) %>%	# move domain before kingdom
   select(-c(kingdom))
+
+write.csv(format_metadata, "NBDL_metadata.csv", row.names = F)
